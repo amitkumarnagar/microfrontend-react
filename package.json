@@ -1,0 +1,14 @@
+{
+  "name": "clarivate-microfrontend",
+  "private": true,
+  "scripts": {
+    "start": "pnpm --filter '*' run start",
+    "start:root": "pnpm --filter main-app run start",
+    "start:app1": "pnpm --filter app1 run start",
+    "start:app2": "pnpm --filter app2 run start"
+  },
+  "author": {
+    "name": "Amit Kumar",
+    "url": "https://github.com/amitkumarnagar/microfrontend-react"
+  }
+}
