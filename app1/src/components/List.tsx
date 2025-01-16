@@ -11,7 +11,8 @@ const List: React.FC<ListProps> = ({ photos, toggleFavorite }) => {
     <div className="items">
       {photos.map((photo) => (
         <div key={photo.id} className="photo-item">
-          <img src="https://images.unsplash.com/photo-1736444865981-1f01548f5af8" alt={photo.title} width={320} />
+          <img src={photo.url} alt={photo.title} width={320} />
+          {/* <img src="https://images.unsplash.com/photo-1736444865981-1f01548f5af8" alt={photo.title} width={320} /> */}
             <p className="title">{photo.title}</p>
           {!!toggleFavorite && (
             <button onClick={() => toggleFavorite?.(photo.id)}>
