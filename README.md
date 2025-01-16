@@ -39,3 +39,6 @@ React, React Router, SCSS
 
 
 ## Requirements
+
+[Requirement.pdf](https://github.com/user-attachments/files/18441281/Requirement.pdf)
+
