@@ -1,0 +1,33 @@
+#root {
+  padding: 2rem;
+}
+
+.dashboard, .albums {
+  padding: 0.5rem;
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .favorites {
+    margin: 1rem 0;
+    padding: 0.5rem;
+
+    .message {
+      padding: 2rem 0;
+    }
+  }
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+
+  .title {
+    max-width: 320px;
+    height: 60px;
+    padding: 0.25rem;
+  }
+}
